@@ -1,0 +1,7 @@
+INFO: Instrumenting logging
+WARNING: It looks like this module is imported by a custom loader. Atheris has experimental support for this. However, it may be incompatible with certain libraries. If you experience unusual errors or poor coverage collection, try atheris.instrument_all() instead, add enable_loader_override=False to instrument_imports(), or file an issue on GitHub.
+INFO: Instrumenting string
+Traceback (most recent call last):
+  File "bs4_fuzzer.py", line 89, in <module>
+ModuleNotFoundError: No module named 'bs4'
+[241] Failed to execute script 'bs4_fuzzer' due to unhandled exception!
