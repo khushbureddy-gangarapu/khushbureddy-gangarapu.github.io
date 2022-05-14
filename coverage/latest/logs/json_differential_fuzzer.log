@@ -3,11 +3,11 @@ WARNING: Failed to find function "__sanitizer_acquire_crash_state".
 WARNING: Failed to find function "__sanitizer_print_stack_trace".
 WARNING: Failed to find function "__sanitizer_set_death_callback".
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 1175405377
+INFO: Seed: 2150733137
 INFO:        5 files found in /github/workspace/cifuzz-corpus/json_differential_fuzzer
 INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 4096 bytes
-INFO: seed corpus: files: 5 min: 2b max: 4b total: 14b rss: 48Mb
-#6	INITED cov: 137 ft: 231 corp: 5/14b exec/s: 0 rss: 48Mb
+INFO: seed corpus: files: 5 min: 2b max: 4b total: 14b rss: 45Mb
+#6	INITED cov: 137 ft: 137 corp: 5/14b exec/s: 0 rss: 45Mb
 Done 8 in 0 second(s)
 INFO: Instrumentation complete.
 INFO: Instrumenting decimal
