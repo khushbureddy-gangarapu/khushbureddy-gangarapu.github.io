@@ -3,7 +3,7 @@ WARNING: Failed to find function "__sanitizer_acquire_crash_state".
 WARNING: Failed to find function "__sanitizer_print_stack_trace".
 WARNING: Failed to find function "__sanitizer_set_death_callback".
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 394578244
+INFO: Seed: 3773701191
 INFO:        5 files found in /github/workspace/cifuzz-corpus/json_differential_fuzzer
 INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 4096 bytes
 INFO: seed corpus: files: 5 min: 2b max: 4b total: 14b rss: 48Mb
