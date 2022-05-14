@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
-    <title>Coverage for /pythoncovmergedfiles/medio/medio/usr/local/lib/python3.8/site-packages/hypothesis/core.py: 35%</title>
+    <title>Coverage for /pythoncovmergedfiles/medio/medio/usr/local/lib/python3.8/site-packages/hypothesis/core.py: 36%</title>
     <link rel="icon" sizes="32x32" href="favicon_32.png">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript" src="coverage_html.js" defer></script>
@@ -13,7 +13,7 @@
     <div class="content">
         <h1>
             <span class="text">Coverage for </span><b>/pythoncovmergedfiles/medio/medio/usr/local/lib/python3.8/site-packages/hypothesis/core.py</b>:
-            <span class="pc_cov">35%</span>
+            <span class="pc_cov">36%</span>
         </h1>
         <div id="help_panel_wrapper">
             <input id="help_panel_state" type="checkbox">
@@ -44,8 +44,8 @@
         </div>
         <h2>
             <span class="text">582 statements &nbsp;</span>
-            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">206<span class="text"> run</span></button>
-            <button type="button" class="mis show_mis button_toggle_mis" value="mis" data-shortcut="m" title="Toggle lines missing">376<span class="text"> missing</span></button>
+            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">212<span class="text"> run</span></button>
+            <button type="button" class="mis show_mis button_toggle_mis" value="mis" data-shortcut="m" title="Toggle lines missing">370<span class="text"> missing</span></button>
             <button type="button" class="exc show_exc button_toggle_exc" value="exc" data-shortcut="x" title="Toggle lines excluded">20<span class="text"> excluded</span></button>
         </h2>
         <div style="display: none;">
@@ -679,11 +679,11 @@
     <p class="pln"><span class="n"><a id="t620" href="#t620">620</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t621" href="#t621">621</a></span><span class="t">                        <span class="com"># Generate all arguments to the test function.</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t622" href="#t622">622</a></span><span class="t">                        <span class="nam">args</span><span class="op">,</span> <span class="nam">kwargs</span> <span class="op">=</span> <span class="nam">data</span><span class="op">.</span><span class="nam">draw</span><span class="op">(</span><span class="nam">self</span><span class="op">.</span><span class="nam">search_strategy</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t623" href="#t623">623</a></span><span class="t">                        <span class="key">if</span> <span class="nam">expected_failure</span> <span class="key">is</span> <span class="key">not</span> <span class="key">None</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t623" href="#t623">623</a></span><span class="t">                        <span class="key">if</span> <span class="nam">expected_failure</span> <span class="key">is</span> <span class="key">not</span> <span class="key">None</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t624" href="#t624">624</a></span><span class="t">                            <span class="key">nonlocal</span> <span class="nam">text_repr</span>&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t625" href="#t625">625</a></span><span class="t">                            <span class="nam">text_repr</span> <span class="op">=</span> <span class="nam">repr_call</span><span class="op">(</span><span class="nam">test</span><span class="op">,</span> <span class="nam">args</span><span class="op">,</span> <span class="nam">kwargs</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t626" href="#t626">626</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t627" href="#t627">627</a></span><span class="t">                        <span class="key">if</span> <span class="nam">print_example</span> <span class="key">or</span> <span class="nam">current_verbosity</span><span class="op">(</span><span class="op">)</span> <span class="op">>=</span> <span class="nam">Verbosity</span><span class="op">.</span><span class="nam">verbose</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t627" href="#t627">627</a></span><span class="t">                        <span class="key">if</span> <span class="nam">print_example</span> <span class="key">or</span> <span class="nam">current_verbosity</span><span class="op">(</span><span class="op">)</span> <span class="op">>=</span> <span class="nam">Verbosity</span><span class="op">.</span><span class="nam">verbose</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t628" href="#t628">628</a></span><span class="t">                            <span class="nam">output</span> <span class="op">=</span> <span class="nam">StringIO</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t629" href="#t629">629</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t630" href="#t630">630</a></span><span class="t">                            <span class="nam">printer</span> <span class="op">=</span> <span class="nam">RepresentationPrinter</span><span class="op">(</span><span class="nam">output</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
@@ -716,7 +716,7 @@
     <p class="mis show_mis"><span class="n"><a id="t657" href="#t657">657</a></span><span class="t">                                <span class="nam">printer</span><span class="op">.</span><span class="nam">text</span><span class="op">(</span><span class="str">")"</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t658" href="#t658">658</a></span><span class="t">                            <span class="nam">printer</span><span class="op">.</span><span class="nam">flush</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t659" href="#t659">659</a></span><span class="t">                            <span class="nam">report</span><span class="op">(</span><span class="nam">output</span><span class="op">.</span><span class="nam">getvalue</span><span class="op">(</span><span class="op">)</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t660" href="#t660">660</a></span><span class="t">                        <span class="key">return</span> <span class="nam">test</span><span class="op">(</span><span class="op">*</span><span class="nam">args</span><span class="op">,</span> <span class="op">**</span><span class="nam">kwargs</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t660" href="#t660">660</a></span><span class="t">                        <span class="key">return</span> <span class="nam">test</span><span class="op">(</span><span class="op">*</span><span class="nam">args</span><span class="op">,</span> <span class="op">**</span><span class="nam">kwargs</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t661" href="#t661">661</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t662" href="#t662">662</a></span><span class="t">        <span class="com"># Run the test function once, via the executor hook.</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t663" href="#t663">663</a></span><span class="t">        <span class="com"># In most cases this will delegate straight to `run(data)`.</span>&nbsp;</span><span class="r"></span></p>
@@ -724,7 +724,7 @@
     <p class="pln"><span class="n"><a id="t665" href="#t665">665</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t666" href="#t666">666</a></span><span class="t">        <span class="com"># If a failure was expected, it should have been raised already, so</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t667" href="#t667">667</a></span><span class="t">        <span class="com"># instead raise an appropriate diagnostic error.</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t668" href="#t668">668</a></span><span class="t">        <span class="key">if</span> <span class="nam">expected_failure</span> <span class="key">is</span> <span class="key">not</span> <span class="key">None</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t668" href="#t668">668</a></span><span class="t">        <span class="key">if</span> <span class="nam">expected_failure</span> <span class="key">is</span> <span class="key">not</span> <span class="key">None</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t669" href="#t669">669</a></span><span class="t">            <span class="nam">exception</span><span class="op">,</span> <span class="nam">traceback</span> <span class="op">=</span> <span class="nam">expected_failure</span>&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t670" href="#t670">670</a></span><span class="t">            <span class="key">if</span> <span class="op">(</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t671" href="#t671">671</a></span><span class="t">                <span class="nam">isinstance</span><span class="op">(</span><span class="nam">exception</span><span class="op">,</span> <span class="nam">DeadlineExceeded</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
@@ -750,7 +750,7 @@
     <p class="pln"><span class="n"><a id="t691" href="#t691">691</a></span><span class="t">                <span class="str">" on the first call but did not on a subsequent one"</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t692" href="#t692">692</a></span><span class="t">                <span class="nam">cause</span><span class="op">=</span><span class="nam">exception</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t693" href="#t693">693</a></span><span class="t">            <span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t694" href="#t694">694</a></span><span class="t">        <span class="key">return</span> <span class="nam">result</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t694" href="#t694">694</a></span><span class="t">        <span class="key">return</span> <span class="nam">result</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t695" href="#t695">695</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t696" href="#t696">696</a></span><span class="t">    <span class="key">def</span> <span class="nam">_execute_once_for_engine</span><span class="op">(</span><span class="nam">self</span><span class="op">,</span> <span class="nam">data</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t697" href="#t697">697</a></span><span class="t">        <span class="str">"""Wrapper around ``execute_once`` that intercepts test failure</span>&nbsp;</span><span class="r"></span></p>
@@ -1349,7 +1349,7 @@
     <p class="mis show_mis"><span class="n"><a id="t1290" href="#t1290">1290</a></span><span class="t">                        <span class="nam">settings</span><span class="op">.</span><span class="nam">database</span><span class="op">.</span><span class="nam">save</span><span class="op">(</span><span class="nam">digest</span><span class="op">,</span> <span class="nam">buffer</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t1291" href="#t1291">1291</a></span><span class="t">                        <span class="nam">minimal_failures</span><span class="op">[</span><span class="nam">data</span><span class="op">.</span><span class="nam">interesting_origin</span><span class="op">]</span> <span class="op">=</span> <span class="nam">buffer</span>&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t1292" href="#t1292">1292</a></span><span class="t">                    <span class="key">raise</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t1293" href="#t1293">1293</a></span><span class="t">                <span class="key">return</span> <span class="nam">bytes</span><span class="op">(</span><span class="nam">data</span><span class="op">.</span><span class="nam">buffer</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t1293" href="#t1293">1293</a></span><span class="t">                <span class="key">return</span> <span class="nam">bytes</span><span class="op">(</span><span class="nam">data</span><span class="op">.</span><span class="nam">buffer</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t1294" href="#t1294">1294</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t1295" href="#t1295">1295</a></span><span class="t">            <span class="nam">fuzz_one_input</span><span class="op">.</span><span class="nam">__doc__</span> <span class="op">=</span> <span class="nam">HypothesisHandle</span><span class="op">.</span><span class="nam">fuzz_one_input</span><span class="op">.</span><span class="nam">__doc__</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t1296" href="#t1296">1296</a></span><span class="t">            <span class="key">return</span> <span class="nam">fuzz_one_input</span>&nbsp;</span><span class="r"></span></p>
@@ -1434,7 +1434,7 @@
     <div class="content">
         <p>
             <a class="nav" href="index.html">&#xab; index</a> &nbsp; &nbsp; <a class="nav" href="https://coverage.readthedocs.io">coverage.py v6.3.3</a>,
-            created at 2022-05-14 09:12 +0000
+            created at 2022-05-14 09:34 +0000
         </p>
     </div>
 </footer>

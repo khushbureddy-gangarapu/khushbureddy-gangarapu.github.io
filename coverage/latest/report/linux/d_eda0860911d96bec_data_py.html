@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
-    <title>Coverage for /pythoncovmergedfiles/medio/medio/usr/local/lib/python3.8/site-packages/hypothesis/internal/conjecture/data.py: 61%</title>
+    <title>Coverage for /pythoncovmergedfiles/medio/medio/usr/local/lib/python3.8/site-packages/hypothesis/internal/conjecture/data.py: 62%</title>
     <link rel="icon" sizes="32x32" href="favicon_32.png">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript" src="coverage_html.js" defer></script>
@@ -13,7 +13,7 @@
     <div class="content">
         <h1>
             <span class="text">Coverage for </span><b>/pythoncovmergedfiles/medio/medio/usr/local/lib/python3.8/site-packages/hypothesis/internal/conjecture/data.py</b>:
-            <span class="pc_cov">61%</span>
+            <span class="pc_cov">62%</span>
         </h1>
         <div id="help_panel_wrapper">
             <input id="help_panel_state" type="checkbox">
@@ -44,8 +44,8 @@
         </div>
         <h2>
             <span class="text">572 statements &nbsp;</span>
-            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">347<span class="text"> run</span></button>
-            <button type="button" class="mis show_mis button_toggle_mis" value="mis" data-shortcut="m" title="Toggle lines missing">225<span class="text"> missing</span></button>
+            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">353<span class="text"> run</span></button>
+            <button type="button" class="mis show_mis button_toggle_mis" value="mis" data-shortcut="m" title="Toggle lines missing">219<span class="text"> missing</span></button>
             <button type="button" class="exc show_exc button_toggle_exc" value="exc" data-shortcut="x" title="Toggle lines excluded">0<span class="text"> excluded</span></button>
         </h2>
         <div style="display: none;">
@@ -364,7 +364,7 @@
     <p class="pln"><span class="n"><a id="t305" href="#t305">305</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t306" href="#t306">306</a></span><span class="t">    <span class="key">def</span> <span class="nam">stop_example</span><span class="op">(</span><span class="nam">self</span><span class="op">,</span> <span class="nam">discard</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t307" href="#t307">307</a></span><span class="t">        <span class="key">if</span> <span class="nam">discard</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t308" href="#t308">308</a></span><span class="t">            <span class="nam">self</span><span class="op">.</span><span class="nam">trail</span><span class="op">.</span><span class="nam">append</span><span class="op">(</span><span class="nam">STOP_EXAMPLE_DISCARD_RECORD</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t308" href="#t308">308</a></span><span class="t">            <span class="nam">self</span><span class="op">.</span><span class="nam">trail</span><span class="op">.</span><span class="nam">append</span><span class="op">(</span><span class="nam">STOP_EXAMPLE_DISCARD_RECORD</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t309" href="#t309">309</a></span><span class="t">        <span class="key">else</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t310" href="#t310">310</a></span><span class="t">            <span class="nam">self</span><span class="op">.</span><span class="nam">trail</span><span class="op">.</span><span class="nam">append</span><span class="op">(</span><span class="nam">STOP_EXAMPLE_NO_DISCARD_RECORD</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t311" href="#t311">311</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
@@ -958,7 +958,7 @@
     <p class="run"><span class="n"><a id="t899" href="#t899">899</a></span><span class="t">        <span class="key">if</span> <span class="nam">self</span><span class="op">.</span><span class="nam">frozen</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t900" href="#t900">900</a></span><span class="t">            <span class="key">return</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t901" href="#t901">901</a></span><span class="t">        <span class="key">if</span> <span class="nam">discard</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t902" href="#t902">902</a></span><span class="t">            <span class="nam">self</span><span class="op">.</span><span class="nam">has_discards</span> <span class="op">=</span> <span class="key">True</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t902" href="#t902">902</a></span><span class="t">            <span class="nam">self</span><span class="op">.</span><span class="nam">has_discards</span> <span class="op">=</span> <span class="key">True</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t903" href="#t903">903</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">depth</span> <span class="op">-=</span> <span class="num">1</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t904" href="#t904">904</a></span><span class="t">        <span class="key">assert</span> <span class="nam">self</span><span class="op">.</span><span class="nam">depth</span> <span class="op">>=</span> <span class="op">-</span><span class="num">1</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t905" href="#t905">905</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">__example_record</span><span class="op">.</span><span class="nam">stop_example</span><span class="op">(</span><span class="nam">discard</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
@@ -996,10 +996,10 @@
     <p class="pln"><span class="n"><a id="t937" href="#t937">937</a></span><span class="t">            <span class="com"># generation will avoid it, and we can use it to detect when we</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t938" href="#t938">938</a></span><span class="t">            <span class="com"># have explored the entire tree (up to redundancy).</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t939" href="#t939">939</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t940" href="#t940">940</a></span><span class="t">            <span class="nam">self</span><span class="op">.</span><span class="nam">observer</span><span class="op">.</span><span class="nam">kill_branch</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t940" href="#t940">940</a></span><span class="t">            <span class="nam">self</span><span class="op">.</span><span class="nam">observer</span><span class="op">.</span><span class="nam">kill_branch</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t941" href="#t941">941</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t942" href="#t942">942</a></span><span class="t">    <span class="key">def</span> <span class="nam">note_event</span><span class="op">(</span><span class="nam">self</span><span class="op">,</span> <span class="nam">event</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t943" href="#t943">943</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">events</span><span class="op">.</span><span class="nam">add</span><span class="op">(</span><span class="nam">event</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t943" href="#t943">943</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">events</span><span class="op">.</span><span class="nam">add</span><span class="op">(</span><span class="nam">event</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t944" href="#t944">944</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t945" href="#t945">945</a></span><span class="t">    <span class="op">@</span><span class="nam">property</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t946" href="#t946">946</a></span><span class="t">    <span class="key">def</span> <span class="nam">examples</span><span class="op">(</span><span class="nam">self</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
@@ -1041,7 +1041,7 @@
     <p class="run"><span class="n"><a id="t982" href="#t982">982</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">__check_capacity</span><span class="op">(</span><span class="nam">n_bytes</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t983" href="#t983">983</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t984" href="#t984">984</a></span><span class="t">        <span class="key">if</span> <span class="nam">forced</span> <span class="key">is</span> <span class="key">not</span> <span class="key">None</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t985" href="#t985">985</a></span><span class="t">            <span class="nam">buf</span> <span class="op">=</span> <span class="nam">int_to_bytes</span><span class="op">(</span><span class="nam">forced</span><span class="op">,</span> <span class="nam">n_bytes</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t985" href="#t985">985</a></span><span class="t">            <span class="nam">buf</span> <span class="op">=</span> <span class="nam">int_to_bytes</span><span class="op">(</span><span class="nam">forced</span><span class="op">,</span> <span class="nam">n_bytes</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t986" href="#t986">986</a></span><span class="t">        <span class="key">elif</span> <span class="nam">self</span><span class="op">.</span><span class="nam">__bytes_drawn</span> <span class="op">&lt;</span> <span class="nam">len</span><span class="op">(</span><span class="nam">self</span><span class="op">.</span><span class="nam">__prefix</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t987" href="#t987">987</a></span><span class="t">            <span class="nam">index</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">__bytes_drawn</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t988" href="#t988">988</a></span><span class="t">            <span class="nam">buf</span> <span class="op">=</span> <span class="nam">self</span><span class="op">.</span><span class="nam">__prefix</span><span class="op">[</span><span class="nam">index</span> <span class="op">:</span> <span class="nam">index</span> <span class="op">+</span> <span class="nam">n_bytes</span><span class="op">]</span>&nbsp;</span><span class="r"></span></p>
@@ -1069,7 +1069,7 @@
     <p class="run"><span class="n"><a id="t1010" href="#t1010">1010</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">index</span> <span class="op">=</span> <span class="nam">len</span><span class="op">(</span><span class="nam">self</span><span class="op">.</span><span class="nam">buffer</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t1011" href="#t1011">1011</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t1012" href="#t1012">1012</a></span><span class="t">        <span class="key">if</span> <span class="nam">forced</span> <span class="key">is</span> <span class="key">not</span> <span class="key">None</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t1013" href="#t1013">1013</a></span><span class="t">            <span class="nam">self</span><span class="op">.</span><span class="nam">forced_indices</span><span class="op">.</span><span class="nam">update</span><span class="op">(</span><span class="nam">range</span><span class="op">(</span><span class="nam">initial</span><span class="op">,</span> <span class="nam">self</span><span class="op">.</span><span class="nam">index</span><span class="op">)</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t1013" href="#t1013">1013</a></span><span class="t">            <span class="nam">self</span><span class="op">.</span><span class="nam">forced_indices</span><span class="op">.</span><span class="nam">update</span><span class="op">(</span><span class="nam">range</span><span class="op">(</span><span class="nam">initial</span><span class="op">,</span> <span class="nam">self</span><span class="op">.</span><span class="nam">index</span><span class="op">)</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t1014" href="#t1014">1014</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t1015" href="#t1015">1015</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">blocks</span><span class="op">.</span><span class="nam">add_endpoint</span><span class="op">(</span><span class="nam">self</span><span class="op">.</span><span class="nam">index</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t1016" href="#t1016">1016</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
@@ -1121,7 +1121,7 @@
     <div class="content">
         <p>
             <a class="nav" href="index.html">&#xab; index</a> &nbsp; &nbsp; <a class="nav" href="https://coverage.readthedocs.io">coverage.py v6.3.3</a>,
-            created at 2022-05-14 09:12 +0000
+            created at 2022-05-14 09:34 +0000
         </p>
     </div>
 </footer>
