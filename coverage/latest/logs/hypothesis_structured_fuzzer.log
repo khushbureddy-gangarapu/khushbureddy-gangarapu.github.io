@@ -1,4 +1,4 @@
 Traceback (most recent call last):
-  File "hypothesis_structured_fuzzer.py", line 186, in <module>
+  File "hypothesis_structured_fuzzer.py", line 98, in <module>
 ModuleNotFoundError: No module named 'ujson'
-[249] Failed to execute script 'hypothesis_structured_fuzzer' due to unhandled exception!
+[113] Failed to execute script 'hypothesis_structured_fuzzer' due to unhandled exception!

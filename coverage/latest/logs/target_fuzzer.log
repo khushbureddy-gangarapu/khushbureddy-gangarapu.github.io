@@ -1,4 +1,4 @@
 Traceback (most recent call last):
-  File "target_fuzzer.py", line 162, in <module>
+  File "target_fuzzer.py", line 74, in <module>
 ModuleNotFoundError: No module named 'ujson'
-[325] Failed to execute script 'target_fuzzer' due to unhandled exception!
+[136] Failed to execute script 'target_fuzzer' due to unhandled exception!

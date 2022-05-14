@@ -1,4 +1,4 @@
 Traceback (most recent call last):
-  File "json_differential_fuzzer.py", line 186, in <module>
+  File "json_differential_fuzzer.py", line 98, in <module>
 ModuleNotFoundError: No module named 'ujson'
-[281] Failed to execute script 'json_differential_fuzzer' due to unhandled exception!
+[121] Failed to execute script 'json_differential_fuzzer' due to unhandled exception!
