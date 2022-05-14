@@ -3,11 +3,11 @@ WARNING: Failed to find function "__sanitizer_acquire_crash_state".
 WARNING: Failed to find function "__sanitizer_print_stack_trace".
 WARNING: Failed to find function "__sanitizer_set_death_callback".
 INFO: Running with entropic power schedule (0xFF, 100).
-INFO: Seed: 3104158343
+INFO: Seed: 3898182685
 INFO:      160 files found in /github/workspace/cifuzz-corpus/hypothesis_structured_fuzzer
 INFO: -max_len is not provided; libFuzzer will not generate inputs larger than 4096 bytes
-INFO: seed corpus: files: 160 min: 1b max: 3134b total: 47537b rss: 65Mb
-#161	INITED cov: 498 ft: 2365 corp: 144/40Kb exec/s: 53 rss: 66Mb
+INFO: seed corpus: files: 160 min: 1b max: 3134b total: 47537b rss: 63Mb
+#161	INITED cov: 498 ft: 2365 corp: 144/40Kb exec/s: 53 rss: 64Mb
 Done 163 in 3 second(s)
-INFO: Instrumenting 8643 functions...
+INFO: Instrumenting 8642 functions...
 INFO: Instrumentation complete.
